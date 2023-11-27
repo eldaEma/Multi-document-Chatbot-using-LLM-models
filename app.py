@@ -79,9 +79,9 @@ def main():
     load_dotenv()
     # Initialize session state
     initialize_session_state()
-    st.title("Multi-Docs ChatBot using llama2 :books:")
+    st.title("Interact With The Auditor General's Report :books:")
     # Initialize Streamlit
-    st.sidebar.title("Document Processing")
+    st.sidebar.image("morlu logo.jpg")
     uploaded_files = st.sidebar.file_uploader("Upload files", accept_multiple_files=True)
 
 
